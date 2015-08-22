@@ -1,0 +1,25 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<dom-module id="my-first-element">
+
+  <style media="screen">
+
+  </style>
+
+  <template>
+    <div>{{greeting}}</div>
+  </template>
+
+
+  <script type="text/javascript">
+      Polymer({
+        is: "my-first-element",
+        properties: {
+          greeting: {
+            type: String,
+            value: "Hello!"
+          }
+        }
+      });
+  </script>
+</dom-module>
